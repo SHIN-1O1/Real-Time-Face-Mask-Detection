@@ -1,4 +1,4 @@
-# 😷Real-Time Face Mask Detection Using YOLOv8
+# Real-Time Face Mask Detection Using YOLOv8
 
 A deep learning-based real-time face mask detection system using YOLOv8 and Streamlit.
 
