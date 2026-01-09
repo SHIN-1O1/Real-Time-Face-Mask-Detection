@@ -15,7 +15,7 @@ A deep learning-based real-time face mask detection system using YOLOv8 and Stre
 - **Color-coded bounding boxes** with confidence scores
 - **Statistics dashboard** with compliance rate
 
-## 📊Model Performance
+## Model Performance
 
 | Class | Precision | Recall | mAP50 |
 |-------|-----------|--------|-------|
