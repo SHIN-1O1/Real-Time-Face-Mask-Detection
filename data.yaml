@@ -1,0 +1,15 @@
+# Face Mask Detection Dataset Configuration
+
+path: /home/sherwin/projects/face mask detection/dataset
+train: train/images
+val: val/images
+test: test/images
+
+# Classes
+names:
+  0: with_mask
+  1: without_mask
+  2: mask_weared_incorrect
+
+# Number of classes
+nc: 3
