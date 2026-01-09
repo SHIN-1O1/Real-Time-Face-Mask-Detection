@@ -1,4 +1,4 @@
-# 😷 Real-Time Face Mask Detection Using YOLOv8
+# 😷Real-Time Face Mask Detection Using YOLOv8
 
 A deep learning-based real-time face mask detection system using YOLOv8 and Streamlit.
 
@@ -6,7 +6,7 @@ A deep learning-based real-time face mask detection system using YOLOv8 and Stre
 ![YOLOv8](https://img.shields.io/badge/YOLOv8-Ultralytics-purple.svg)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red.svg)
 
-## 🎯 Features
+##  Features
 
 - **Real-time detection** via webcam
 - **Image & video upload** support
@@ -15,7 +15,7 @@ A deep learning-based real-time face mask detection system using YOLOv8 and Stre
 - **Color-coded bounding boxes** with confidence scores
 - **Statistics dashboard** with compliance rate
 
-## 📊 Model Performance
+## 📊Model Performance
 
 | Class | Precision | Recall | mAP50 |
 |-------|-----------|--------|-------|
@@ -23,7 +23,7 @@ A deep learning-based real-time face mask detection system using YOLOv8 and Stre
 | without_mask | 70.6% | 84.9% | 84.0% |
 | mask_weared_incorrect | 100% | 70.5% | 84.7% |
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 # Clone the repository
@@ -41,7 +41,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 face-mask-detection/
@@ -54,14 +54,14 @@ face-mask-detection/
     └── best.pt         # Trained model weights
 ```
 
-## 🏋️ Training Your Own Model
+##  Training Your Own Model
 
 1. Download the [Face Mask Detection Dataset](https://www.kaggle.com/datasets/andrewmvd/face-mask-detection)
 2. Extract to `archive/` folder
 3. Run conversion: `python convert_to_yolo.py`
 4. Train: `python train.py --epochs 70 --img-size 640`
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Deep Learning**: YOLOv8 (Ultralytics)
 - **Framework**: PyTorch
@@ -69,11 +69,11 @@ face-mask-detection/
 - **Web App**: Streamlit
 - **Dataset**: Kaggle Face Mask Detection
 
-## 📝 License
+## 📝License
 
 MIT License
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics)
 - [Face Mask Detection Dataset](https://www.kaggle.com/datasets/andrewmvd/face-mask-detection)
